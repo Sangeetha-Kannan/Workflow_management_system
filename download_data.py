@@ -23,3 +23,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     os.makedirs(args.output_path, exist_ok=True)
     download_geo_data(args.geo_id, args.output_path)
+    
